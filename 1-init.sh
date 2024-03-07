@@ -18,3 +18,12 @@ docker pull ubuntu
 
 #Verificando as imagens
 docker images
+
+#uma vez que temos a imagem, vamos criar um ou mais conteiners a partir dela
+#Sintaxe
+# docker run --name conteiner_name -p 8008:80 image_base
+#para o ubunto
+docker -it ubuntu 
+
+#Verificar conteiners em execução
+docker ps
